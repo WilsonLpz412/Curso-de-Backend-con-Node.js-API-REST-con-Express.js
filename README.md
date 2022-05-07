@@ -18,3 +18,14 @@ Curso de Backend con Node.js: API REST con Express.js
 
 - app.get
 - res.json
+
+## 4) ¿Qué es una RESTful API?
+
+| Method    | /products | /products/{id}                |
+| :-------- | :-------- | :---------------------------- |
+| `GET`     | Get list  | Get                           |
+| `PUT`     | Replace*  | Update/Replace                |
+| `PATCH`   | No Apply  | Update                        |
+| `POST`    | Create    | No Apply                      |
+| `DELETE`  | Delete*   | Delete                        |
+|           | `*`       | No recomendado                |
