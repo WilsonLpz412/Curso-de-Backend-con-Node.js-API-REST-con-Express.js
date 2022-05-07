@@ -29,3 +29,11 @@ Curso de Backend con Node.js: API REST con Express.js
 | `POST`    | Create    | No Apply                      |
 | `DELETE`  | Delete*   | Delete                        |
 |           | `*`       | No recomendado                |
+
+## 5) GET: recibir parámetros
+
+| URL                                     | req.params                        |
+| :--------                               | :-------------------------------- |
+| api.example.com/tasks/:id/              | const id = req.params.id          |
+| api.example.com/people/:id/             | const { id } = req.params         |
+| api.example.com/users/:id/tasks/:taskId | const { id, taskId } = req.params |
