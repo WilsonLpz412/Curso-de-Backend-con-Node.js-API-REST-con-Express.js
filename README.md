@@ -13,3 +13,8 @@ Curso de Backend con Node.js: API REST con Express.js
 
 - npm i express
 - npm run dev
+
+## 3) Routing con Express.js
+
+- app.get
+- res.json
