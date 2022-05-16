@@ -37,3 +37,17 @@ Curso de Backend con Node.js: API REST con Express.js
 | api.example.com/tasks/:id/              | const id = req.params.id          |
 | api.example.com/people/:id/             | const { id } = req.params         |
 | api.example.com/users/:id/tasks/:taskId | const { id, taskId } = req.params |
+
+## 6) GET: párametros query
+
+- app.example.com/products
+- app.example.com/products?page=1
+- app.example.com/products?limit=10&offset=0
+- app.example.com/products?region=USA
+- app.example.com/products?region=USA&brand=XYZ
+
+- Crear datos ficticios npm i faker@5.5.3 -S
+
+Manejar ruta desde los especifico a lo dinámico
+- /products/filter
+- /products/:id
