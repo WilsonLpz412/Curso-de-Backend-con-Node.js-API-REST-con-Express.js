@@ -48,6 +48,13 @@ Curso de Backend con Node.js: API REST con Express.js
 
 - Crear datos ficticios npm i faker@5.5.3 -S
 
-Manejar ruta desde los especifico a lo dinámico
+Manejar ruta desde lo especifico a lo dinámico
 - /products/filter
 - /products/:id
+
+## 7) Separación de responsabilidades con express.Router
+
+Single Responsibility principle
+
+Crear un router para la aplicación
+- const router = express.Router();
