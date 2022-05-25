@@ -58,3 +58,12 @@ Single Responsibility principle
 
 Crear un router para la aplicación
 - const router = express.Router();
+
+## 8) POST: método para crear
+
+Router general
+- const express = require('express');
+- const router = express.Router();
+- app.use('/api/v1', router);
+POST capturar JSON
+- app.use(express.json());
