@@ -71,3 +71,8 @@ POST capturar JSON
 ## 9) PUT, PATCH y DELETE
 - router.patch
 - router.delete
+
+## 10) Códigos de estado o HTTP response status codes
+res.status(201).json(.....
+- https://http.cat/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
