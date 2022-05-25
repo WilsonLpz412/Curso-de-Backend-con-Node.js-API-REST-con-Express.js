@@ -76,3 +76,7 @@ POST capturar JSON
 res.status(201).json(.....
 - https://http.cat/
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+## 11) Introducción a servicios: crea tu primer servicio
+Separar router de servicios, en los servicios va la lógica de negocio
+- product.service.js
