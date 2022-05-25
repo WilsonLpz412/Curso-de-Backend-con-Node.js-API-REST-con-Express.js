@@ -67,3 +67,7 @@ Router general
 - app.use('/api/v1', router);
 POST capturar JSON
 - app.use(express.json());
+
+## 9) PUT, PATCH y DELETE
+- router.patch
+- router.delete
