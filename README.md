@@ -80,3 +80,7 @@ res.status(201).json(.....
 ## 11) Introducción a servicios: crea tu primer servicio
 Separar router de servicios, en los servicios va la lógica de negocio
 - product.service.js
+
+## 12) Crear, editar y eliminar desde un servicio
+
+Crear, editar y eliminar desde un servicio
