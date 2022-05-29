@@ -84,3 +84,10 @@ Separar router de servicios, en los servicios va la lógica de negocio
 ## 12) Crear, editar y eliminar desde un servicio
 
 Crear, editar y eliminar desde un servicio
+
+## 13) Async await y captura de errores
+try {
+  ...
+} catch (error) {
+  ...
+}
