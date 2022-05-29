@@ -96,3 +96,9 @@ try {
 
 - function logErrors (err, req, res, next) {...}
 - function errorHandler (err, req, res, next) {...}
+
+## 15) Manejo de errores con Boom
+- npm i @hapi/boom
+- throw boom.notFound('product not found');
+- Se crear un nuevo middleware
+- function boomErrorHandler (err, req, res, next) { ... }
