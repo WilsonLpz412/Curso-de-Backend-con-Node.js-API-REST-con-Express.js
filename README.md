@@ -91,3 +91,8 @@ try {
 } catch (error) {
   ...
 }
+
+## 14) Middleware para HttpErrors
+
+- function logErrors (err, req, res, next) {...}
+- function errorHandler (err, req, res, next) {...}
