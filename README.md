@@ -105,3 +105,7 @@ try {
 
 ## 16) Validación de datos con Joi
 - npm i joi
+
+
+## 17) Probando nuestros endpoints
+- Validando createProductSchema, updateProductSchema, getProductSchema en products.routers.js
