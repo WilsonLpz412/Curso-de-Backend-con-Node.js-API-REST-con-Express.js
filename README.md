@@ -102,3 +102,6 @@ try {
 - throw boom.notFound('product not found');
 - Se crear un nuevo middleware
 - function boomErrorHandler (err, req, res, next) { ... }
+
+## 16) Validación de datos con Joi
+- npm i joi
