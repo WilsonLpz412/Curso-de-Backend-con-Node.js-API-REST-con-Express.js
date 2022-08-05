@@ -109,3 +109,15 @@ try {
 
 ## 17) Probando nuestros endpoints
 - Validando createProductSchema, updateProductSchema, getProductSchema en products.routers.js
+
+## 18) Consideraciones para producción
+- Cors
+- Https
+- Procesos de Build
+- Remover logs
+- Seguridad (Helmet)
+- Testing
+
+## 19) Problema de CORS
+- npm i cors
+
